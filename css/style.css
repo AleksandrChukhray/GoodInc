@@ -3,6 +3,9 @@
 	display:table;
 	clear: both;
 }
+.clearfix {
+	zoom:1;
+}
 
 .container {
 	background-color: #373737;
@@ -60,7 +63,7 @@ nav .navigation li:last-child {
 	border-right:1px solid #767676;
 	padding-right:29px;
 	padding-left: 20px;
-	text-aling: center;
+	text-align: center;
 }
 .social_bar{
 	position: relative;
@@ -115,13 +118,15 @@ input[type="image"]{
 .mail{background:url(../img/mail.png)  center left no-repeat;}
 
 .feature {
-	float: left;	
+	background-color: #373737;	
 }
-.feature figure {
+.feature .image-container{
+	float:left;
 	position:relative;
 	border-right: 9px solid #f26c4f;
+	
 }
-.feature figure:after {
+.feature .image-container:after {
 	content:"";
 	display:block;
 	position: absolute;
@@ -132,21 +137,20 @@ input[type="image"]{
 	border-bottom: 22px solid transparent;
 	
 }
-.feature figcaption{
-	position: relateve;
-	bottom:0%;
-	left:280px;
-	padding: 24px 0 26px 30px;
-	background-color: #262933;
+.image-figcapture {
+	position:relative;
+	bottom:100%;
+	left: 40%;
+	background-color: rgba(0,0,0,.5);
 }
-.feature .text_block{
-	float: right;
-	width: 300px;
+
+.text_block{
+	float:left;
+	width:300px;
 	padding: 45px 48px 0 38px;
 	padding-top: 45px;
 	padding-left: 38px;
 	padding-right: 48px;
-	background-color: #373737;
 	text-align: left;
 }
 .text_block h2{

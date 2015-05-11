@@ -1,0 +1,156 @@
+.clearfix:after{
+	content:" ";
+	display:table;
+	clear: both;
+}
+
+.container {
+	background-color: #373737;
+}
+.logo {
+    position: relative;
+    float: left;
+    height: 66px;
+    width: 88px;
+    font: 36px "NexaHeavy";
+    color: #FFF;
+    background: none repeat scroll 0% 0% #F26C4F;
+    text-align: center;
+    text-decoration: none;
+
+}
+.logo:after {
+	content:"";
+	position: absolute;
+	left:100%;
+	top:30%;
+	display:block;
+	border-top:13px solid transparent;
+	border-left: 12px solid #f26c4f;
+	border-bottom: 13px solid transparent;
+
+
+}
+.c_name{
+	font:18px "NexaLight", sans-serif;
+	padding: 20px;
+	margin-left: 88px;
+}
+nav {
+	background: #474747;
+}
+.navigation{
+	float:left;
+}
+
+.navigation li {
+	float: left;
+	padding: 28px 0;
+}
+nav .navigation li:last-child {
+	border:none;
+}
+.navigation li span:hover {
+	padding-bottom:24px;
+	border-bottom: 4px solid #f26c4f;	
+}
+.navigation a {
+	font:12px Arial, serif;
+	color:#fff;
+	border-right:1px solid #767676;
+	padding-right:29px;
+	padding-left: 20px;
+	text-aling: center;
+}
+.social_bar{
+	position: relative;
+}
+.search {
+	float:left;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	width: 300px;
+	background-color: #fff;
+	box-shadow: 0 0 2px #dedede;
+}
+input[type="image"]{
+	padding-right: 13px;
+	padding-top:   12px;
+	float:right;
+
+}
+.search input[type="text"]{
+	float:left;
+	outline: none;
+	border:none;
+	text-indent: 20px;
+	font: bold 12px/46px Arial,sans-serif;
+	color: #959595;
+}
+.search input[type="text"]:focus{
+	color:black;
+	font-weight: normal;
+}
+.social_link{
+	float: right;
+}
+.social_link li {
+	float: left;
+	margin-right:33px;
+	padding:32px 0;
+	font: 12px/ Arial sans-serif;
+	color:#474747;
+}
+.social_link a {
+	font: 12px/ Arial sans-serif;
+	color:#8f8f8f;
+	padding-left: 18px;
+	background-repeat:none;
+	background-position:;
+}
+
+.twitter {background:url(../img/twitter.png) center left no-repeat;}
+.rss{background:url(../img/rss.png)  center left no-repeat;}
+.facebook{background:url(../img/facebook.png)  center left no-repeat;}
+.mail{background:url(../img/mail.png)  center left no-repeat;}
+
+.feature {
+	float: left;	
+}
+.feature figure {
+	position:relative;
+	border-right: 9px solid #f26c4f;
+}
+.feature figure:after {
+	content:"";
+	display:block;
+	position: absolute;
+	left:100%;
+	top: 15%;
+	border-top: 22px solid transparent;
+	border-left: 22px solid #f26c4f;
+	border-bottom: 22px solid transparent;
+	
+}
+.feature figcaption{
+	position: relateve;
+	bottom:0%;
+	left:280px;
+	padding: 24px 0 26px 30px;
+	background-color: #262933;
+}
+.feature .text_block{
+	float: right;
+	width: 300px;
+	padding: 45px 48px 0 38px;
+	padding-top: 45px;
+	padding-left: 38px;
+	padding-right: 48px;
+	background-color: #373737;
+	text-align: left;
+}
+.text_block h2{
+	font-size: 19px;
+
+}
+

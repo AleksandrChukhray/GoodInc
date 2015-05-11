@@ -1,0 +1,22 @@
+*{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+	font: 12px Arial, sans-serif;
+	color: #fff;
+	background-color: #ebebeb;
+}
+body{
+	width: 1000px;
+	margin: 0 auto;
+}
+header {
+	background-color: #323232;
+}
+ul, ol{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
